@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+
+    <link rel="stylesheet" href="./css/nav.css">
+</head>
+<body>
+    
+    <!-- <section class="nav-bar"> -->
+        <nav>
+            <a class="navbar-brand" href="index.php">
+                <img src='./image/info-logo.png' alt="" />
+                <span>
+                  <h5>KESHAMANTRA</h5>
+                </span>
+            </a>
+                 
+                <div class="nav-links" id="navLinks">
+                  <img class="fa fa-times" src="./image/close-x.png" alt="menu" onclick="hideMenue()">
+
+                  <ul class="navbar-nav">
+                    <li> <a href="index.php">HOME</a>  </li>
+                    <li> <a href="products.php">PRODUCTS</a>  </li>
+                    <li> <a href="gallery.php">GALLERY</a>  </li>
+                    <li> <a href="about.php">ABOUT</a>  </li>
+                    <li> <a href="contact.php">CONTACT US</a>  </li>
+                  </ul>
+                </div>
+                <img class="fa fa-bars" src="./image/menu.png" alt="close" onclick="showMenue()">
+        </nav>
+     <!-- </section> -->
+
+     <!-- -------------------------------------------------------//products//------------------------------------------------------- -->
+     
+
+    
+
+    
+
+
+
+<!--      ---Java Script for Menue---      -->
+
+<script>
+  var navLinks = document.getElementById("navLinks")
+
+  function showMenue() {
+    navLinks.style.right = "0px";
+  }
+
+  function hideMenue() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
